@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../css/estilo.css">
+  	<link rel="stylesheet" type="text/css" href="../css/iconos.css">
+	<link rel="icon" type="image/png" href="../imagenes/favicon.png">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+  	<script src="../js/ancla.js"></script>
+	<title>YourEvent | Contactar</title>
+</head>
+
+<body id="top">
+	<nav>
+		<a href="../index.html"><img src="../imagenes/logo.png" class="logo"></a>
+		<ul>
+  			<li><a href="../index.html"><i class="fas fa-home"></i> Inicio</a></li>
+  			<li><a href="info.html"><i class="fas fa-users"></i> Sobre nosotros</a></li>
+  			<li><a href="equipo.html"><i class="fas fa-laugh-beam"></i> Nuestro equipo</a></li>
+  			<li class="desplegable">
+  			  <a href="eventos.html" class="dropbtn"><i class="fas fa-calendar-alt"></i> Eventos</a>
+  		 <div class="desplegable-contenido">
+  			 <a href="eventos.html#bodas">Bodas</a>
+  			  <a href="eventos.html#comuniones">Comuniones</a>
+  			  <a href="eventos.html#reuniones">Reuniones corporativas</a>
+  		    </li>
+  		 </div>
+  		  <li><a href="galeria.html"><i class="fas fa-image"></i> Galería</a></li>
+  		  <li><a href="contactar.html" class="active"><i class="fas fa-address-book"></i> Contactar</a></li>
+ 
+		</ul>
+	</nav>
+
+<div class="banner">
+  <h1>Contacta con nosotros</h1>
+</div>
+
+<div class="containerform">
+
+
+
+  <form id="contacto">
+  <div class="row">
+    <div class="col-25">
+
+   <i class="fas fa-user"> </i>  <label for="nombre">Nombre *</label> 
+    </div>
+    <div class="col-75">
+      <input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre..." value="" required>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+    <i class="fas fa-user-friends"></i>  <label for="apellidos">Apellidos *</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="apellidos" name="apellidos" placeholder="Introduce tus apellidos.." value="" required>
+    </div>
+  </div>
+
+    <div class="row">
+    <div class="col-25">
+    <i class="fas fa-at"></i>  <label for="correo">Correo *</label>
+    </div>
+    <div class="col-75">
+     <input type="email" id="correo" name="correo" placeholder="Introduce tu correo electrónico.." value="" required>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-25">
+     <i class="fas fa-book-open"></i> <label for="tema">Tema *</label>
+    </div>
+    <div class="col-75">
+      <select id="tema" name="tema">
+        <option value="consulta">Deseo realizar una consulta</option>
+        <option value="precio">Deseo consultar precios</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-25">
+     <i class="fas fa-align-right"></i> <label for="descr">Descripción  </label>
+    </div>
+    <div class="col-75">
+      <textarea id="descr" name="descr" placeholder="Este campo es opcional.." value="" style="height:200px"></textarea>
+    </div>
+  </div>
+
+  <img src="../imagenes/contactar.png" class="globos">
+
+
+  <div class="row">
+<input type="reset" value="Borrar">  <br><br> <input type="submit" name="ok" value="Enviar"> <br><br>
+  </div>
+
+
+  </form>
+</div>
+
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3034.9308697865613!2d-3.8598801843460486!3d40.47679435990768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd41846582414961%3A0xe082b3d047b02889!2sCalle+Romero%2C+2%2C+28221+Majadahonda%2C+Madrid!5e0!3m2!1ses!2ses!4v1555456884484!5m2!1ses!2ses" allowfullscreen></iframe>
+
+<footer>
+
+  <h3>2019. Adrián Martín | YourEvent</h3>
+  <a href="sitemap.html" target="_blank"><p>Mapa del sitio</p></a>
+
+<a href="#top"><img src="../imagenes/top.png" class="flecha"></a>
+
+
+</footer>
+
+</body>
+</html>

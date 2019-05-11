@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
+<sitemap>
+  <pagina>
+    <nombre>Inicio</nombre>
+    <url>https://adrianmm1999.github.io/proyecto/index.html</url>
+    <descripcion>Bienvenido a YourEvent</descripcion>
+  </pagina>
+  <pagina>
+    <nombre>Sobre nosotros</nombre>
+    <url>https://adrianmm1999.github.io/proyecto/info.html</url>
+    <descripcion>Informacion acerca de YourEvent</descripcion>
+  </pagina>
+  <pagina>
+    <nombre>Nuestro equipo</nombre>
+    <url>https://adrianmm1999.github.io/proyecto/equipo.html</url>
+    <descripcion>Informacion acerca de nuestro equipo</descripcion>
+  </pagina>
+  <pagina>
+    <nombre>Eventos</nombre>
+    <url>https://adrianmm1999.github.io/proyecto/eventos.html</url>
+    <descripcion>Eventos disponibles en YourEvent</descripcion>
+  </pagina>
+  <pagina>
+    <nombre>Galeria</nombre>
+    <url>https://adrianmm1999.github.io/proyecto/galeria.html</url>
+    <descripcion>Nuestra galeria de fotos</descripcion>
+  </pagina>
+  <pagina>
+    <nombre>Contactar</nombre>
+    <url>https://adrianmm1999.github.io/proyecto/contactar.html</url>
+    <descripcion>Ponte en contacto con nosotros</descripcion>
+  </pagina>
+</sitemap>
+
