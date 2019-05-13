@@ -11,7 +11,7 @@ $(document).ready(function(){
                 {
 
                     alert("Has iniciado sesión correctamente");
-                    document.getElementById("login").innerHTML = "Bienvenido a YourEvent, user. Esperemos que disfrutes tu visita a nuestra web. :)";
+                    document.getElementById("login").innerHTML = "Bienvenido a YourEvent, asir. Esperemos que disfrutes tu visita a nuestra web. :)";
 
                 }
            });
