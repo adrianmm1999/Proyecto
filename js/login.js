@@ -14,6 +14,10 @@ $(document).ready(function(){
                     document.getElementById("login").innerHTML = "Bienvenido a YourEvent, asir. Esperemos que disfrutes tu visita a nuestra web. :)";
 
                 }
+               
+               else { 
+                     alert("ERROR: DATOS INCORRECTOS");
+                  }
            });
         });
     });
